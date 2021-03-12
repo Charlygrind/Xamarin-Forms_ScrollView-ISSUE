@@ -1,0 +1,15 @@
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\bin\Debug\netstandard2.0\testScroll.deps.json
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\bin\Debug\netstandard2.0\testScroll.dll
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\bin\Debug\netstandard2.0\ref\testScroll.dll
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\bin\Debug\netstandard2.0\testScroll.pdb
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\obj\Debug\netstandard2.0\Views\CuestionarioPage.xaml.g.cs
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\obj\Debug\netstandard2.0\testScroll.AssemblyInfoInputs.cache
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\obj\Debug\netstandard2.0\testScroll.AssemblyInfo.cs
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\obj\Debug\netstandard2.0\testScroll.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\obj\Debug\netstandard2.0\testScroll.dll
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\obj\Debug\netstandard2.0\ref\testScroll.dll
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\obj\Debug\netstandard2.0\testScroll.pdb
+C:\Users\Carlos Ley\source\repos\testScroll\testScroll\testScroll\obj\Debug\netstandard2.0\testScroll.csprojAssemblyReference.cache

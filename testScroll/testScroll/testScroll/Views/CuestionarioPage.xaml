@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="testScroll.Views.CuestionarioPage"
+             Title="Encuesta Domicilio"
+             Visual="Material"
+             BindingContext="{Binding CuestionarioViewModel, Source={StaticResource Locator}}">
+
+    <ScrollView>
+        <Grid BackgroundColor="White" Padding="10" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <!--Fila 0-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 1-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 2-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 3-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 4-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 5-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 6-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 7-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 8-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 9-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 10-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 11-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 12-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 13-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 14-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 15-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 16-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 17-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 18-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 19-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 20-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 21-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 22-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 23-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 24-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 25-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 26-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 27-->
+                <RowDefinition Height="Auto"/>
+                <!--Fila 28-->
+                <RowDefinition Height="*"/>
+                <!--Fila 29-->
+                <RowDefinition Height="*"/>
+                
+            </Grid.RowDefinitions>
+
+            <Entry Grid.Row="0"
+                   Keyboard="Text"
+                   
+                   Placeholder="Nombre"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Label Grid.Row="1"
+                   x:Name="Cuestionario_NombreError"
+                   IsVisible="False" 
+                   TextColor="Red"/>
+
+            <Entry Grid.Row="2"
+                   Keyboard="Text"
+                   
+                   Placeholder="Apellido Paterno"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Label Grid.Row="3"
+                   x:Name="Cuestionario_ApellidoPaternoError"
+                   IsVisible="False" 
+                   TextColor="Red"/>
+
+            <Entry Grid.Row="4"
+                   Keyboard="Text"
+                   
+                   Placeholder="Apellido Materno"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Label Grid.Row="5"
+                   x:Name="Cuestionario_ApellidoMaternoError"
+                   IsVisible="False" 
+                   TextColor="Red"/>
+
+            <Entry Grid.Row="6"
+                   Keyboard="Text"
+                   
+                   Placeholder="Estado"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Label Grid.Row="7"
+                   x:Name="Cuestionario_EstadoError"
+                   IsVisible="False" 
+                   TextColor="Red"/>
+
+            <Entry Grid.Row="8"
+                   
+                   Keyboard="Text"
+                   Placeholder="Localidad"
+                   PlaceholderColor="Black"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Label Grid.Row="9"
+                   x:Name="Cuestionario_LocalidadError"
+                   IsVisible="False" 
+                   TextColor="Red"/>
+
+            <Entry Grid.Row="10"
+                   
+                   Keyboard="Numeric"
+                   Placeholder="Codigo Postal"
+                   PlaceholderColor="Black"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Label Grid.Row="11"
+                   x:Name="Cuestionario_CodigoPostalError"
+                   IsVisible="False"
+                   TextColor="Red"/>
+
+            <Entry Grid.Row="12"
+                   
+                   Keyboard="Telephone"
+                   Placeholder="Celular"
+                   PlaceholderColor="Black"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Label Grid.Row="13"
+                   x:Name="Cuestionario_CelularError"
+                   IsVisible="False"
+                   TextColor="Red"/>
+
+            <Entry Grid.Row="14"
+                   
+                   Keyboard="Email"
+                   Placeholder="Correo"
+                   PlaceholderColor="Black"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Label Grid.Row="15"
+                   x:Name="Cuestionario_CorreoError"
+                   IsVisible="False"
+                   TextColor="Red"/>
+
+            <Entry Grid.Row="16"
+                   
+                   Keyboard="Text"
+                   Placeholder="Centro de Trabajo"
+                   PlaceholderColor="Black"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Label Grid.Row="17"
+                   x:Name="Cuestionario_CentroTrabajoError"
+                   IsVisible="False"
+                   TextColor="Red"/>
+
+            <Picker Grid.Row="18" 
+                    BackgroundColor="Transparent" 
+                    HeightRequest="65" 
+                    Title="Seleccione Tipo de Proyecto" 
+                    x:Name="PkProyecto" 
+                    />
+            
+            <Editor Grid.Row="19"
+                    
+                    Placeholder="Descripcion del Proyecto"
+                    PlaceholderColor="Black"
+                    AutoSize="TextChanges"
+                    BackgroundColor="Transparent"
+                    Keyboard="Text"/>
+
+            <Label Grid.Row="20"
+                   x:Name="Cuestionario_DescripcionProyectoError"
+                   IsVisible="False"
+                   TextColor="Red"/>
+
+            <Label Grid.Row="21"
+                   Text="Formas de Pago"
+                   TextColor="DarkRed"
+                   FontSize="Medium"/>
+
+
+            <Grid Grid.Row="22" RowSpacing="1" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <!--Check 0,0-->
+                    <ColumnDefinition Width="30"/>
+                    <!--Label 0,1-->
+                    <ColumnDefinition Width="Auto"/>
+                    <!--Check 0,2-->
+                    <ColumnDefinition Width="30"/>
+                    <!--Label 0,3-->
+                    <ColumnDefinition Width="50"/>
+                    <!--Check 1,0-->
+                    <ColumnDefinition Width="30"/>
+                    <!--Check 0,0-->
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <CheckBox Grid.Row="0"
+                          Grid.Column="0"
+                          IsChecked="{Binding Mejoravit,Mode=TwoWay}"/>
+
+                <Label Grid.Row="0"
+                       Grid.Column="1"
+                       Text="Mejoravit"
+                       TextColor="Black"
+                       VerticalOptions="Center"/>
+
+                <CheckBox Grid.Row="0" 
+                          Grid.Column="2"
+                          IsChecked="{Binding Coppel,Mode=TwoWay}"/>
+
+                <Label Grid.Row="0"
+                       Grid.Column="3"
+                       Text="Coppel"
+                       TextColor="Black"
+                       VerticalOptions="Center"/>
+
+                <CheckBox Grid.Row="0"
+                          Grid.Column="4"
+                          IsChecked="{Binding Tcmapco,Mode=TwoWay}"/>
+
+                <Label Grid.Row="0"
+                       Grid.Column="5"
+                       Text="TcMapco"
+                       TextColor="Black"
+                       VerticalOptions="Center"/>
+
+                <CheckBox Grid.Row="1"
+                          Grid.Column="0"
+                          IsChecked="{Binding Rpropio,Mode=TwoWay}"/>
+
+                <Label Grid.Row="1"
+                       Grid.Column="1"
+                       Text="Recurso Propio"
+                       TextColor="Black"
+                       VerticalOptions="Center"/>
+
+                <CheckBox Grid.Row="1"
+                          Grid.Column="2"
+                          IsChecked="{Binding Ctradicional,Mode=TwoWay}"/>
+
+                <Label Grid.Row="1"
+                       Grid.Column="3"
+                       Grid.ColumnSpan="5"
+                       Text="Credito Tradicional"
+                       TextColor="Black"
+                       VerticalOptions="Center"/>
+
+            </Grid>
+
+
+            <Entry Grid.Row="23" 
+                   Keyboard="Numeric"
+                   
+                   IsVisible="{Binding CoppelVisible}"
+                   Placeholder="Tarjeta Coopel"
+                   PlaceholderColor="Black"
+                   FontSize="19"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Entry Grid.Row="24"
+                   
+                   IsVisible="{Binding CoppelVisible}"
+                   Keyboard="Numeric"
+                   Placeholder="Monto Disponible(Coppel)"
+                   PlaceholderColor="Black"
+                   FontSize="19"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Entry Grid.Row="25"
+                   Keyboard="Numeric"
+                   
+                   IsVisible="{Binding MejoravitVisible}"
+                   Placeholder="Numero Seguro Social"
+                   PlaceholderColor="Black"
+                   FontSize="19"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Label Grid.Row="26"
+                   Text="Fecha de Nacimiento"
+                   IsVisible="{Binding MejoravitVisible}"
+                   TextColor="Black"
+                   FontSize="18"/>
+
+            <DatePicker Grid.Row="27"
+                        IsVisible="{Binding MejoravitVisible}"
+                        Format="dd/MM/yyyy"
+                        FontSize="19"
+                        HeightRequest="65"
+                        BackgroundColor="Transparent"/>
+
+            <Entry Grid.Row="28"
+                   
+                   Keyboard="Numeric"
+                   IsVisible="{Binding MejoravitVisible}"
+                   Placeholder="Monto Disponible(Mejoravit)"
+                   PlaceholderColor="Black"
+                   FontSize="19"
+                   HeightRequest="65"
+                   BackgroundColor="Transparent"/>
+
+            <Button Grid.Row="29"
+                    Text="Guardar"
+                    x:Name="BtnGuardar"
+                    BackgroundColor="#3897f0"
+                    TextColor="White"
+                    Margin="25,30,25,10"
+                    BorderRadius="30"
+                    HeightRequest="50"
+                    VerticalOptions="EndAndExpand"/>
+        </Grid>
+    </ScrollView>
+</ContentPage>
